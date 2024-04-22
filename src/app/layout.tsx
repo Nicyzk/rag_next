@@ -5,6 +5,7 @@ import "@/styles/globals.css";
 import "@/styles/app.css";
 import { siteConfig } from "@/constant/config";
 import Menu from "@/components/menu";
+import Head from 'next/head'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -44,6 +45,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
+        <Head>
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+        </Head>
       <body>
         <div id="layout" className="layout">
           <Menu />
