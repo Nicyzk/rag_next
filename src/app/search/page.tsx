@@ -1,7 +1,7 @@
 "use client";
 
 import FollowUpSearch from "@/components/follow_up_search";
-import { useEffect, useRef, useState, useCallback, FormEvent } from "react";
+import { useEffect, useRef, useState, useCallback, FormEvent, Suspense } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import DOMPurify from "dompurify";
 import { marked } from "marked";
@@ -12,6 +12,15 @@ import ChatBox from "./chatBox";
 import { collapasMenu } from "@/lib/utils";
 
 const SearchResult = () => {
+    return (
+        <Suspense fallback={<>Loading...</>}>
+            <SearchResultPage />
+        </Suspense>
+    )
+}
+
+
+const SearchResultPage = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const endpoint = process.env.NEXT_PUBLIC_ENDPOINT || process.env.ENDPOINT;

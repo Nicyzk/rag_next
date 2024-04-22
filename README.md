@@ -1,11 +1,11 @@
 ## Features
 
-This repository is 🔋 battery packed with:
+This app uses:
 
 - ⚡️ Next.js 14 with App Router
 - ⚛️ React 18
-- ✨ TypeScript
-- 💨 Tailwind CSS 4
+-  Tailwind CSS 4
+
 
 ## Getting Started
 
