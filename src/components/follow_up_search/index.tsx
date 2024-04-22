@@ -18,6 +18,7 @@ const FollowUpSearch = ({
   const endpoint = process.env.NEXT_PUBLIC_ENDPOINT || process.env.ENDPOINT;
   
   useEffect(() => {
+    console.log(`${endpoint}database/get_data_sources/`)
     fetch(endpoint + "database/get_data_sources/")
       .then((response) => {
         console.log(response);

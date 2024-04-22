@@ -1,24 +1,27 @@
-## Features
+## Description
 
-This app uses:
+This app is a chat app hosted on: ```https://infinitus-next.vercel.app/``` built using ```React```, ```Next.js```, ```TailwindCSS``, and interfaces with an API at http://18.118.140.126/. 
 
-- ⚡️ Next.js 14 with App Router
-- ⚛️ React 18
--  Tailwind CSS 4
+## Accessing the website
+
+### Method 1: Public URL
+
+**Important note**: The react app is hosted on Vercel which uses HTTPs while the api is hosted on AWS without SSH. To resolve the issue of mixed content, please allow insecure content: https://experienceleague.adobe.com/en/docs/target/using/experiences/vec/troubleshoot-composer/mixed-content.
 
 
-## Getting Started
+### Method 2: Running the development server 
 
-```bash
+To install requirements:
+```
 npm install
 ```
 
-### 3. Run the development server
-
-You can start the server using this command:
-
-```bash
+To start the server: 
+```
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/pages/index.tsx`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+
