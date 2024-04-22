@@ -1,6 +1,7 @@
 ## Description
 
-This app is a chat app hosted on: ```https://infinitus-next.vercel.app/``` built using ```React```, ```Next.js```, ```TailwindCSS``, and interfaces with an API at http://18.118.140.126/. 
+This app is a chat app hosted on: [```https://infinitus-next.vercel.app/```](https://infinitus-next.vercel.app/) built using ```React```, ```Next.js```, ```TailwindCSS```, and interfaces with an API at 
+ [```http://18.118.140.126/```](http://18.118.140.126/) . 
 
 ## Accessing the website
 
