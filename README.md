@@ -24,5 +24,9 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Usage
+- The search page provides an input field for the user to input their query. Be sure to select a database from the dropdown that functions as the context.
+- The database page allows you to create databases or upload files. 
+
 
 
